@@ -1,7 +1,7 @@
 # szbdt
 """
 Created by ： 刘翔
-Email to   ： liu.xiang@vip.163.com
+Email to   ： liuxiangxyd@163.com
 Started Date：30 May 2018
 
 一、镀锌、喷涂线槽计算公式
