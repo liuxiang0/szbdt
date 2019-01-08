@@ -54,7 +54,7 @@ TODO：
 
 """
 
-
+__author__ = "Liu Xiang"
 from tkinter import *
 import tkinter.messagebox as messagebox
 from tkinter.ttk import Combobox
@@ -121,7 +121,7 @@ class Application(Frame):
         self.grid()    # self.pack()
 
         self.separator(rows=0, heights=17)
-        #self.column_sep(columns=0,widths=15)
+        # self.column_sep(columns=0,widths=15)
         Frame1 = Frame(master, bg="#CCCCCC")  # , width=1000, height=400)
         Frame1.grid(row=1, column=0, sticky=W+E+N+S)
 
@@ -138,9 +138,9 @@ class Application(Frame):
         keys = list(lbl_name.keys())
         # 布局 前10个输入框的提示标识。
         for i in range(10):
-            itmp = i // ncolumn
-            Label(Frame1, text=keys[i], width=7).grid(column=2*(i-itmp*ncolumn),
-                  row=2*itmp+1)
+            i_tmp = i // ncolumn
+            Label(Frame1, text=keys[i], width=7).grid(column=2*(i-i_tmp*ncolumn),
+                  row=2*i_tmp+1)
         # Label(Frame1, text="请选择或输入上述参数，然后点击“确认”按钮...",
         #      font=defaultFont[0], fg="red",
         #      relief=RIDGE).grid(column=0, row=5, columnspan=6)
@@ -431,4 +431,3 @@ if __name__ == '__main__':
         root.iconbitmap(r"~/liuxiang0/szbdt/myicon.ico")
     # 主消息循环:
     app.mainloop()
-
