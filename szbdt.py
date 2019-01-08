@@ -431,4 +431,3 @@ if __name__ == '__main__':
         root.iconbitmap(r"~/liuxiang0/szbdt/myicon.ico")
     # 主消息循环:
     app.mainloop()
-
