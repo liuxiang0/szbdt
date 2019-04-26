@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created by ： 刘翔
-Email to   ： liu.xiang@vip.163.com
+Created by ： Liu Xiang
+Email to   ： liuxiangxyd@163.com
 Started Date：30 May 2018
 
 一、镀锌、喷涂线槽计算公式
@@ -407,6 +407,7 @@ class Application(Frame):
             2. bdt 公司名称 \n\
                更改公司名称为  公司名称")
 
+
 if __name__ == '__main__':
     apptitle = defaultCompany
     if len(argv) > 1:
@@ -433,4 +434,3 @@ if __name__ == '__main__':
         root.iconbitmap("myicon.ico")
     # 主消息循环:
     app.mainloop()
-
