@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created by ： 刘翔
+Created by ： Liu Xiang
 Email to   ： liuxiangxyd@163.com
 Started Date：30 May 2018
 
