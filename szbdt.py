@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created by ： 刘翔
+Created by ： Liu Xiang
 Email to   ： liuxiangxyd@163.com
 Started Date：30 May 2018
 
@@ -54,7 +54,11 @@ TODO：
 
 """
 
+<<<<<<< HEAD
 __author__ = 'Liu Xiang'
+=======
+__author__ = "Liu Xiang"
+>>>>>>> 8d512518af3eb656fd03a20b48d10918f16ac878
 from tkinter import *
 import tkinter.messagebox as messagebox
 from tkinter.ttk import Combobox
@@ -430,4 +434,8 @@ if __name__ == '__main__':
     if exists(r"~/liuxiang0/szbdt/myicon.ico"):
         root.iconbitmap(r"~/liuxiang0/szbdt/myicon.ico")
     # 主消息循环:
+<<<<<<< HEAD
     app.mainloop()
+=======
+    app.mainloop()
+>>>>>>> 8d512518af3eb656fd03a20b48d10918f16ac878
